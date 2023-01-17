@@ -1,5 +1,6 @@
 # 产业级端到端系统范例
 
+## 一、简介
 PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 NLP 任务上丰富的[应用示例](../examples)，满足了大量开发者的学习科研与基础应用需求。针对更广泛的产业落地需求、更复杂的 NLP 场景任务，PaddleNLP 推出**产业级端到端系统范例库**，提供单个模型之上的产业解决方案，打通数据标注-模型训练-模型调优-预测部署全流程，帮助开发者更低成本得完成产业落地。
 
 ![deaadd642969f3e2d77dba5e407faa0e](https://user-images.githubusercontent.com/11793384/212836991-d9132e46-b5bf-4389-80e1-4f9dee32f1fe.png)
@@ -16,17 +17,22 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 
 - 如果你希望使用自己的业务数据进行二次开发，推荐使用这里的**可定制版本**，训练好的模型可以直接集成进 Pipelines 中进行使用。
 
-## 范例 List
+## 二、产业级端到端系统范例特色
 
-| 场景任务  | 简介    | Pipelines版本地址 | 可定制版本地址 | 亮点 | 
-| :--------------- | ------- | ------- | ------- | ------- |
-| 检索系统 | t  | [字面+语义检索系统](../pipelines/examples/semantic-search) | [语义检索系统](./neural_search) |  |
-| 智能问答系统 | t | [FAQ问答](../pipelines/examples/FAQ/)、[无监督问答](../pipelines/examples/unsupervised-question-answering)、[检索式问答](../pipelines/examples/question-answering) | [智能问答系统](./question_answering) |  |
-| 文本分类系统 | t | 暂无 | [文本分类系统](./text_classification)  |  |
-| 零样本分类系统 | t | 暂无 | [零样本分类系统](./zero_shot_text_classification) |  | 
-| 通用信息抽取系统 | t | 暂无 | [通用信息抽取系统](./information_extraction) |  |
-| 观点抽取与情感分析系统 | t | [情感分析](../pipelines/examples/sentiment_analysis)  | [观点抽取与情感分析系统](./sentiment_analysis) |  |
-| 语音指令解析系统 | t | 暂无 | [语音指令解析系统](./speech_cmd_analysis) |  |
-| 文档智能系统 | t | [文档抽取问答](../pipelines/examples/document-intelligence) |  [跨模态文档问答](./document_intelligence/doc_vqa)|  |
-| 文本摘要系统 | t | 暂无 | [文本摘要系统](./text_summarization) |  |  
-| 文生图系统 | t | [文生图系统](../pipelines/examples/text_to_image)  | 可参考[PPDiffusers]() |  |  
+1. 最佳实践，最强模型；模型效果和性能兼顾。
+2. 端到端全流程；   
+
+## 三、范例 List
+
+| 场景任务  | Pipelines版本地址 | 可定制版本地址 | 简介 | 
+| :--------------- | ------- | ------- | ------- |
+| 检索系统 | [字面+语义检索系统](../pipelines/examples/semantic-search) | [语义检索系统](./neural_search) |  |
+| 智能问答系统 | [FAQ问答](../pipelines/examples/FAQ/)、[无监督问答](../pipelines/examples/unsupervised-question-answering)、[检索式问答](../pipelines/examples/question-answering) | [智能问答系统](./question_answering) |  |
+| 文本分类系统 |  暂无 | [文本分类系统](./text_classification)  |  |
+| 零样本分类系统 |  暂无 | [零样本分类系统](./zero_shot_text_classification) |  | 
+| 通用信息抽取系统 |  暂无 | [通用信息抽取系统](./information_extraction) |  |
+| 观点抽取与情感分析系统 |  [情感分析](../pipelines/examples/sentiment_analysis)  | [观点抽取与情感分析系统](./sentiment_analysis) |  |
+| 语音指令解析系统 | 暂无 | [语音指令解析系统](./speech_cmd_analysis) |  |
+| 文档智能系统 |  [文档抽取问答](../pipelines/examples/document-intelligence) |  [跨模态文档问答](./document_intelligence/doc_vqa)|  |
+| 文本摘要系统 |  暂无 | [文本摘要系统](./text_summarization) |  |  
+| 文生图系统 |  [文生图系统](../pipelines/examples/text_to_image)  | 可参考[PPDiffusers]() |  |  
