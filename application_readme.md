@@ -25,7 +25,7 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 
 - 如果你希望使用自己的业务数据进行二次开发，推荐使用这里的**可定制版本**，训练好的模型可以直接集成进 Pipelines 中进行使用。
 
-| 场景任务  | 简介    | Pipelines版本地址 | 可定制版本地址 | 亮点 | 
+| 场景任务  | 简介    | Pipelines版本地址 | 可定制版本地址 | 简介 | 
 | :--------------- | ------- | ------- | ------- | ------- |
 | 检索系统 | t  | [字面+语义检索系统](../pipelines/examples/semantic-search) | [语义检索系统](./neural_search) |  |
 | 智能问答系统 | t | [FAQ问答](../pipelines/examples/FAQ/)、[无监督问答](../pipelines/examples/unsupervised-question-answering)、[检索式问答](../pipelines/examples/question-answering) | [智能问答系统](./question_answering) |  |
