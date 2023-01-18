@@ -16,11 +16,11 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 针对无监督数据、有监督数据等多种数据情况，结合SimCSE、In-batch Negatives、ERNIE-Gram单塔模型等，推出前沿的语义检索方案，包含召回、排序环节，打通训练、调优、高效向量检索引擎建库和查询全流程。
 
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/11793384/168514909-8817d79a-72c4-4be1-8080-93d1f682bb46.gif" width="400">
+    <img src="https://user-images.githubusercontent.com/11793384/213134465-30cae5fd-4cd1-4e5b-a1cb-fa55c72980a7.gif" width="60%" length="60%">
 </div>
 
 
-更多使用说明请参考[语义检索系统](./applications/neural_search)。
+更多使用说明请参考[语义检索系统](./neural_search)。
 
 #### ❓ 智能问答系统
 
@@ -31,7 +31,7 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 </div>
 
 
-更多使用说明请参考[智能问答系统](./applications/question_answering)与[文档智能问答](./applications/document_intelligence/doc_vqa)
+更多使用说明请参考[智能问答系统](./question_answering)与[文档智能问答](./document_intelligence/doc_vqa)
 
 #### 💌 评论观点抽取与情感分析
 
@@ -41,7 +41,7 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
     <img src="https://user-images.githubusercontent.com/11793384/168407260-b7f92800-861c-4207-98f3-2291e0102bbe.png" width="400">
 </div>
 
-更多使用说明请参考[情感分析](./applications/sentiment_analysis)。
+更多使用说明请参考[情感分析](./sentiment_analysis)。
 
 #### 🎙️ 智能语音指令解析
 
