@@ -46,7 +46,9 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 
 #### 🔍 语义检索系统
 
-针对无监督数据、有监督数据等多种数据情况，结合SimCSE、In-batch Negatives、ERNIE-Gram单塔模型等，推出前沿的语义检索方案，包含召回、排序环节，打通训练、调优、高效向量检索引擎建库和查询全流程。
+针对无监督数据、有监督数据等多种数据情况，结合SimCSE、In-batch Negatives、ERNIE-Gram单塔模型、RocketQA等，推出前沿的语义检索方案，包含召回、排序环节，打通训练、调优、高效向量检索引擎建库和查询全流程。
+
+集成主流 ANN 引擎，同时兼容 Elasticsearch 字面检索模式，提供多路召回方案。
 
 <div align="center">
     <img src="https://user-images.githubusercontent.com/11793384/213134465-30cae5fd-4cd1-4e5b-a1cb-fa55c72980a7.gif" width="60%" length="60%">
@@ -68,11 +70,13 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 
 #### 💌 评论观点抽取与情感分析
 
-基于情感知识增强预训练模型SKEP，针对产品评论进行评价维度和观点抽取，以及细粒度的情感分析。
+- 经典方案：基于情感知识增强预训练模型SKEP，两阶段式抽取和分类，首先通过序列标注的方式定位属性词和观点词，然后进行属性集情感分类；    
+- 前沿方案：基于UIE的情感分析方案采用 Prompt Learning 的方式进行情感信息抽取，精度更高。支持语句级和属性级情感分析，解决同义属性聚合、隐性观点抽取难点，并提供可视化分析能力。
 
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/11793384/168407260-b7f92800-861c-4207-98f3-2291e0102bbe.png" width="400">
+    <img src="https://user-images.githubusercontent.com/35913314/200259473-434888f7-c0ac-4253-ab23-ede1628e6ba2.png" width="60%" length="60%">
 </div>
+<br>
 
 更多使用说明请参考[情感分析](./sentiment_analysis)。
 
