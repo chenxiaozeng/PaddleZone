@@ -26,23 +26,21 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 **PaddleNLP 提供了多个版本的产业范例:**
 
 - 如果你希望快速体验、直接应用、从零搭建一套完整系统，推荐使用 **Pipelines 版本**。这里集成了训练好的模型，无需关心模型训练细节；提供 Docker 环境，可快速一键部署端到端系统；打通前端 Demo 界面，便于直观展示、分析、调试效果。
-
 - 如果你希望使用自己的业务数据进行二次开发，推荐使用`./applications`目录下的**可定制版本**，训练好的模型可以直接集成进 Pipelines 中进行使用。
+- 也可以使用 [AI Studio](https://aistudio.baidu.com/aistudio/index) 在线 Jupyter Notebook 快速体验，有 GPU 算力哦。
 
-- 当然
-
-| 场景任务   | Pipelines版本地址 | 可定制版本地址 | 
-| :--------------- | ------- | ------- | 
-| 检索系统 | [字面+语义检索系统](../pipelines/examples/semantic-search) | [语义检索系统](./neural_search) |  
-| 智能问答系统 | [FAQ问答](../pipelines/examples/FAQ/)、[无监督问答](../pipelines/examples/unsupervised-question-answering)、[检索式问答](../pipelines/examples/question-answering) | [智能问答系统](./question_answering) |  
-| 文本分类系统 | 暂无 | [文本分类系统](./text_classification)  |  
-| 零样本分类系统 | 暂无 | [零样本分类系统](./zero_shot_text_classification) |  
-| 通用信息抽取系统 | 暂无 | [通用信息抽取系统](./information_extraction) |  
-| 观点抽取与情感分析系统  | [情感分析](../pipelines/examples/sentiment_analysis)  | [观点抽取与情感分析系统](./sentiment_analysis) |  
-| 语音指令解析系统  | 暂无 | [语音指令解析系统](./speech_cmd_analysis) |  
-| 文档智能系统  | [文档抽取问答](../pipelines/examples/document-intelligence) |  [跨模态文档问答](./document_intelligence/doc_vqa)|  
-| 文本摘要系统  | 暂无 | [文本摘要系统](./text_summarization) | 
-| 文生图系统  | [文生图系统](../pipelines/examples/text_to_image)  | 可参考[PPDiffusers]() |   
+| 场景任务   | Pipelines版本地址 | 可定制版本地址 | Notebook |
+| :--------------- | ------- | ------- | ------- | 
+| 检索系统 | [字面+语义检索](../pipelines/examples/semantic-search) | [语义检索](./neural_search) | [基于Pipelines搭建检索系统](https://aistudio.baidu.com/aistudio/projectdetail/4442670)、[语义检索](https://aistudio.baidu.com/aistudio/projectdetail/3351784) | 
+| 智能问答系统 | [FAQ问答](../pipelines/examples/FAQ/)、[无监督检索式问答](../pipelines/examples/unsupervised-question-answering)、[有监督检索式问答](../pipelines/examples/question-answering) | [FAQ问答](./question_answering/supervised_qa)、[无监督检索式问答](./question_answering/unsupervised_qa) | [基于Pipelines搭建FAQ问答系统](https://aistudio.baidu.com/aistudio/projectdetail/4465498)、[基于Pipelines搭建抽取式问答系统](https://aistudio.baidu.com/aistudio/projectdetail/4442857)、[FAQ政务问答](https://aistudio.baidu.com/aistudio/projectdetail/3678873)、[FAQ保险问答](https://aistudio.baidu.com/aistudio/projectdetail/3882519) | 
+| 文本分类系统 | 暂无 | [文本分类系统](./text_classification)  | [对话意图识别](https://aistudio.baidu.com/aistudio/projectdetail/2017202)、[法律文本多标签分类](https://aistudio.baidu.com/aistudio/projectdetail/3996601)、[层次分类](https://aistudio.baidu.com/aistudio/projectdetail/4568985) | 
+| 零样本分类系统 | 暂无 | [零样本分类系统](./zero_shot_text_classification) |  | 
+| 通用信息抽取系统 | 暂无 | [通用信息抽取系统](./information_extraction) | [UIE快速体验](https://aistudio.baidu.com/aistudio/projectdetail/3914778)、[UIE微调](https://aistudio.baidu.com/aistudio/projectdetail/4038499)、[UIE-X快速体验](https://aistudio.baidu.com/aistudio/projectdetail/5017442)、[UIE-X微调](https://aistudio.baidu.com/aistudio/projectdetail/5261592) | 
+| 观点抽取与情感分析系统  | [情感分析](../pipelines/examples/sentiment_analysis)  | [观点抽取与情感分析系统](./sentiment_analysis) |  [观点抽取与情感分析](https://aistudio.baidu.com/aistudio/projectdetail/5318177)| 
+| 文档智能系统  | [文档抽取问答](../pipelines/examples/document-intelligence) |  [跨模态文档问答](./document_intelligence/doc_vqa)| [文档抽取问答](https://aistudio.baidu.com/aistudio/projectdetail/4881278)、[汽车说明书问答](https://aistudio.baidu.com/aistudio/projectdetail/4049663)  | 
+| 文生图系统  | [文生图系统](../pipelines/examples/text_to_image)  | 可参考[PPDiffusers]() |   | 
+| 语音指令解析系统  | 暂无 | [语音指令解析系统](./speech_cmd_analysis) | [语音指令解析](https://aistudio.baidu.com/aistudio/projectdetail/4399703) | 
+| 文本摘要系统  | 暂无 | [文本摘要系统](./text_summarization) | [中文文本摘要](https://aistudio.baidu.com/aistudio/projectdetail/4903667) | 
 
 ## 3、典型范例介绍
 
