@@ -31,16 +31,16 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 
 | 场景任务   | Pipelines版本地址 | 可定制版本地址 | Notebook |
 | :--------------- | ------- | ------- | ------- | 
-| 检索系统 | [字面+语义检索](../pipelines/examples/semantic-search) | [语义检索](./neural_search) | [基于Pipelines搭建检索系统](https://aistudio.baidu.com/aistudio/projectdetail/4442670)、[语义检索](https://aistudio.baidu.com/aistudio/projectdetail/3351784) | 
-| 智能问答系统 | [FAQ问答](../pipelines/examples/FAQ/)、[无监督检索式问答](../pipelines/examples/unsupervised-question-answering)、[有监督检索式问答](../pipelines/examples/question-answering) | [FAQ问答](./question_answering/supervised_qa)、[无监督检索式问答](./question_answering/unsupervised_qa) | [基于Pipelines搭建FAQ问答系统](https://aistudio.baidu.com/aistudio/projectdetail/4465498)、[基于Pipelines搭建检索式问答系统](https://aistudio.baidu.com/aistudio/projectdetail/4442857)、[FAQ政务问答](https://aistudio.baidu.com/aistudio/projectdetail/3678873)、[FAQ保险问答](https://aistudio.baidu.com/aistudio/projectdetail/3882519) | 
-| 文本分类系统 | 暂无 | [文本分类](./text_classification)  | [对话意图识别](https://aistudio.baidu.com/aistudio/projectdetail/2017202)、[法律文本多标签分类](https://aistudio.baidu.com/aistudio/projectdetail/3996601)、[层次分类](https://aistudio.baidu.com/aistudio/projectdetail/4568985) | 
-| 通用文本分类系统 | 暂无 | [通用文本分类](./zero_shot_text_classification) |  | 
-| 通用信息抽取系统 | 暂无 | [通用信息抽取](./information_extraction) | [UIE快速体验](https://aistudio.baidu.com/aistudio/projectdetail/3914778)、[UIE微调](https://aistudio.baidu.com/aistudio/projectdetail/4038499)、[UIE-X快速体验](https://aistudio.baidu.com/aistudio/projectdetail/5017442)、[UIE-X微调](https://aistudio.baidu.com/aistudio/projectdetail/5261592) | 
-| 观点抽取与情感分析系统  | [情感分析](../pipelines/examples/sentiment_analysis)  | [观点抽取与情感分析系统](./sentiment_analysis) |  [观点抽取与情感分析](https://aistudio.baidu.com/aistudio/projectdetail/5318177)| 
-| 文档智能系统  | [文档抽取问答](../pipelines/examples/document-intelligence) |  [跨模态文档问答](./document_intelligence/doc_vqa)| [文档抽取问答](https://aistudio.baidu.com/aistudio/projectdetail/4881278)、[汽车说明书问答](https://aistudio.baidu.com/aistudio/projectdetail/4049663)  | 
-| 文生图系统  | [文生图系统](../pipelines/examples/text_to_image)  | 可参考[PPDiffusers]() |   | 
-| 语音指令解析系统  | 暂无 | [语音指令解析系统](./speech_cmd_analysis) | [语音指令解析](https://aistudio.baidu.com/aistudio/projectdetail/4399703) | 
-| 文本摘要系统  | 暂无 | [文本摘要系统](./text_summarization) | [中文文本摘要](https://aistudio.baidu.com/aistudio/projectdetail/4903667) | 
+| **检索**| [字面+语义检索](../pipelines/examples/semantic-search) | [语义检索](./neural_search) | [基于Pipelines搭建检索系统](https://aistudio.baidu.com/aistudio/projectdetail/4442670)<br>[二次开发语义检索](https://aistudio.baidu.com/aistudio/projectdetail/3351784) | 
+| **问答** | [FAQ问答](../pipelines/examples/FAQ/)<br>[无监督检索式问答](../pipelines/examples/unsupervised-question-answering)<br>[有监督检索式问答](../pipelines/examples/question-answering) | [FAQ问答](./question_answering/supervised_qa)<br>[无监督检索式问答](./question_answering/unsupervised_qa) | [基于Pipelines搭建FAQ问答系统](https://aistudio.baidu.com/aistudio/projectdetail/4465498)<br>[基于Pipelines搭建抽取式问答系统](https://aistudio.baidu.com/aistudio/projectdetail/4442857)<br>[FAQ政务问答](https://aistudio.baidu.com/aistudio/projectdetail/3678873)<br>[FAQ保险问答](https://aistudio.baidu.com/aistudio/projectdetail/3882519) | 
+| **文本分类**| 暂无 | [文本分类](./text_classification)  | [对话意图识别](https://aistudio.baidu.com/aistudio/projectdetail/2017202)<br>[法律文本多标签分类](https://aistudio.baidu.com/aistudio/projectdetail/3996601)<br>[层次分类](https://aistudio.baidu.com/aistudio/projectdetail/4568985) | 
+| **通用文本分类** | 暂无 | [通用文本分类](./zero_shot_text_classification) |  | 
+| **通用信息抽取** | 暂无 | [通用信息抽取](./information_extraction) | [UIE快速体验](https://aistudio.baidu.com/aistudio/projectdetail/3914778)<br>[UIE微调实体抽取](https://aistudio.baidu.com/aistudio/projectdetail/4038499)<br>[UIE微调关系抽取](https://aistudio.baidu.com/aistudio/projectdetail/4371345)<br>[UIE-X快速体验](https://aistudio.baidu.com/aistudio/projectdetail/5017442)<br>[UIE-X微调](https://aistudio.baidu.com/aistudio/projectdetail/5261592) | 
+| **情感分析**  | [情感分析](../pipelines/examples/sentiment_analysis)  | [情感分析](./sentiment_analysis) |  [情感分析](https://aistudio.baidu.com/aistudio/projectdetail/5318177)| 
+| **文档智能**  | [文档抽取问答](../pipelines/examples/document-intelligence) |  [跨模态文档问答](./document_intelligence/doc_vqa)| [文档抽取问答](https://aistudio.baidu.com/aistudio/projectdetail/4881278)<br>[汽车说明书问答](https://aistudio.baidu.com/aistudio/projectdetail/4049663)  | 
+| **文生图**  | [文生图系统](../pipelines/examples/text_to_image)  | 可参考[PPDiffusers]() |   | 
+| **语音指令解析**  | 暂无 | [语音指令解析](./speech_cmd_analysis) | [语音指令解析](https://aistudio.baidu.com/aistudio/projectdetail/4399703) | 
+| **文本摘要**  | 暂无 | [文本摘要](./text_summarization) | [文本摘要](https://aistudio.baidu.com/aistudio/projectdetail/4903667) | 
 
 ## 3、典型范例介绍
 
@@ -77,7 +77,7 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 </div>
 <br>
 
-详细使用说明请参考[情感分析](./sentiment_analysis)。
+详细使用说明请参考[情感分析](./sentiment_analysis)。    
 更多：[文章解读](https://mp.weixin.qq.com/s/QAHjIRG9zxpYfM6YPRQ-9w)
 
 #### 📚 通用文本分类
@@ -89,7 +89,7 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 </div>
 <br>
 
-详细使用说明请参考[通用文本分类](./zero_shot_text_classification)。     
+详细使用说明请参考[通用文本分类](./zero_shot_text_classification)。        
 更多：[文章解读](https://mp.weixin.qq.com/s/VV-nYv4y1r7oipJnURRL5w)。
 
 
@@ -103,7 +103,7 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 </div>
 <br>
 
-详细使用说明请参考[文本分类](./text_classification)。
+详细使用说明请参考[文本分类](./text_classification)。    
 更多：[文章解读](https://mp.weixin.qq.com/s/tas7yM8vapxwtlJt-MRZdg)。
 
 #### 🎙️ 智能语音指令解析
