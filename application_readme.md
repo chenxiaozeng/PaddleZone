@@ -7,7 +7,7 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 针对更广泛的产业落地需求、更复杂的 NLP 场景任务，PaddleNLP 推出**产业级端到端系统范例库**（下文简称产业范例），提供单个模型之上的产业解决方案。
 
 - 最强模型与实践———产业范例针对具体业务场景，提供最佳模型（组合），兼顾模型精度与性能，降低开发者模型选型成本；
-- 全流程端到端———打通数据标注-模型训练-模型调优-模型压缩—预测部署全流程，帮助开发者更低成本得完成产业落地。
+- 全流程———打通数据标注-模型训练-模型调优-模型压缩—预测部署全流程，帮助开发者更低成本得完成产业落地。
 
 ## 2、基于 Pipelines 构建产业范例，加速落地
 
@@ -32,10 +32,10 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 | 场景任务   | Pipelines版本地址 | 可定制版本地址 | Notebook |
 | :--------------- | ------- | ------- | ------- | 
 | 检索系统 | [字面+语义检索](../pipelines/examples/semantic-search) | [语义检索](./neural_search) | [基于Pipelines搭建检索系统](https://aistudio.baidu.com/aistudio/projectdetail/4442670)、[语义检索](https://aistudio.baidu.com/aistudio/projectdetail/3351784) | 
-| 智能问答系统 | [FAQ问答](../pipelines/examples/FAQ/)、[无监督检索式问答](../pipelines/examples/unsupervised-question-answering)、[有监督检索式问答](../pipelines/examples/question-answering) | [FAQ问答](./question_answering/supervised_qa)、[无监督检索式问答](./question_answering/unsupervised_qa) | [基于Pipelines搭建FAQ问答系统](https://aistudio.baidu.com/aistudio/projectdetail/4465498)、[基于Pipelines搭建抽取式问答系统](https://aistudio.baidu.com/aistudio/projectdetail/4442857)、[FAQ政务问答](https://aistudio.baidu.com/aistudio/projectdetail/3678873)、[FAQ保险问答](https://aistudio.baidu.com/aistudio/projectdetail/3882519) | 
-| 文本分类系统 | 暂无 | [文本分类系统](./text_classification)  | [对话意图识别](https://aistudio.baidu.com/aistudio/projectdetail/2017202)、[法律文本多标签分类](https://aistudio.baidu.com/aistudio/projectdetail/3996601)、[层次分类](https://aistudio.baidu.com/aistudio/projectdetail/4568985) | 
-| 零样本分类系统 | 暂无 | [零样本分类系统](./zero_shot_text_classification) |  | 
-| 通用信息抽取系统 | 暂无 | [通用信息抽取系统](./information_extraction) | [UIE快速体验](https://aistudio.baidu.com/aistudio/projectdetail/3914778)、[UIE微调](https://aistudio.baidu.com/aistudio/projectdetail/4038499)、[UIE-X快速体验](https://aistudio.baidu.com/aistudio/projectdetail/5017442)、[UIE-X微调](https://aistudio.baidu.com/aistudio/projectdetail/5261592) | 
+| 智能问答系统 | [FAQ问答](../pipelines/examples/FAQ/)、[无监督检索式问答](../pipelines/examples/unsupervised-question-answering)、[有监督检索式问答](../pipelines/examples/question-answering) | [FAQ问答](./question_answering/supervised_qa)、[无监督检索式问答](./question_answering/unsupervised_qa) | [基于Pipelines搭建FAQ问答系统](https://aistudio.baidu.com/aistudio/projectdetail/4465498)、[基于Pipelines搭建检索式问答系统](https://aistudio.baidu.com/aistudio/projectdetail/4442857)、[FAQ政务问答](https://aistudio.baidu.com/aistudio/projectdetail/3678873)、[FAQ保险问答](https://aistudio.baidu.com/aistudio/projectdetail/3882519) | 
+| 文本分类系统 | 暂无 | [文本分类](./text_classification)  | [对话意图识别](https://aistudio.baidu.com/aistudio/projectdetail/2017202)、[法律文本多标签分类](https://aistudio.baidu.com/aistudio/projectdetail/3996601)、[层次分类](https://aistudio.baidu.com/aistudio/projectdetail/4568985) | 
+| 通用文本分类系统 | 暂无 | [通用文本分类](./zero_shot_text_classification) |  | 
+| 通用信息抽取系统 | 暂无 | [通用信息抽取](./information_extraction) | [UIE快速体验](https://aistudio.baidu.com/aistudio/projectdetail/3914778)、[UIE微调](https://aistudio.baidu.com/aistudio/projectdetail/4038499)、[UIE-X快速体验](https://aistudio.baidu.com/aistudio/projectdetail/5017442)、[UIE-X微调](https://aistudio.baidu.com/aistudio/projectdetail/5261592) | 
 | 观点抽取与情感分析系统  | [情感分析](../pipelines/examples/sentiment_analysis)  | [观点抽取与情感分析系统](./sentiment_analysis) |  [观点抽取与情感分析](https://aistudio.baidu.com/aistudio/projectdetail/5318177)| 
 | 文档智能系统  | [文档抽取问答](../pipelines/examples/document-intelligence) |  [跨模态文档问答](./document_intelligence/doc_vqa)| [文档抽取问答](https://aistudio.baidu.com/aistudio/projectdetail/4881278)、[汽车说明书问答](https://aistudio.baidu.com/aistudio/projectdetail/4049663)  | 
 | 文生图系统  | [文生图系统](../pipelines/examples/text_to_image)  | 可参考[PPDiffusers]() |   | 
@@ -46,27 +46,26 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 
 #### 🔍 语义检索系统
 
-针对无监督数据、有监督数据等多种数据情况，结合SimCSE、In-batch Negatives、ERNIE-Gram单塔模型、RocketQA等，推出前沿的语义检索方案，包含召回、排序环节，打通训练、调优、高效向量检索引擎建库和查询全流程。
-
-集成主流 ANN 引擎，同时兼容 Elasticsearch 字面检索模式，提供多路召回方案。
+- 前沿算法———基于 SimCSE、In-batch Negatives、ERNIE Pair-wise、RocketQA Poinet-Wise 等提供针对无监督、有监督等多种数据情况的多样化方案；
+- 全流程———覆盖召回、排序环节，集成主流 ANN 引擎，同时兼容 Elasticsearch 字面检索模式，提供多路召回方案。打通训练、调优、高效向量检索引擎建库和查询全流程。
 
 <div align="center">
     <img src="https://user-images.githubusercontent.com/11793384/213134465-30cae5fd-4cd1-4e5b-a1cb-fa55c72980a7.gif" width="60%" length="60%">
 </div>
 
-
-更多使用说明请参考[语义检索系统](./neural_search)。
+详细使用说明请参考[语义检索系统](./neural_search)。
 
 #### ❓ 智能问答系统
 
-基于[🚀RocketQA](https://github.com/PaddlePaddle/RocketQA)技术的检索式问答系统，支持FAQ问答、说明书问答等多种业务场景。
+- 端到端问答技术 [🚀RocketQA](https://github.com/PaddlePaddle/RocketQA)，首个中文端到端问答模型，基于知识增强的预训练模型ERNIE和百万量级的人工标注数据集DuReader训练得到，效果优异；  
+- 覆盖有监督（如 FAQ 问答）、无监督（自动生成 QA 对，生成的问答对语料可以通过无监督的方式构建检索式问答系统）等多种情况，适用各类业务场景。
 
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/11793384/168514868-1babe981-c675-4f89-9168-dd0a3eede315.gif" width="400">
+    <img src="https://user-images.githubusercontent.com/11793384/168514868-1babe981-c675-4f89-9168-dd0a3eede315.gif" width="60%" length="60%">
 </div>
 
 
-更多使用说明请参考[智能问答系统](./question_answering)与[文档智能问答](./document_intelligence/doc_vqa)
+详细使用说明请参考[智能问答系统](./question_answering)与[文档智能问答](./document_intelligence/doc_vqa)
 
 #### 💌 评论观点抽取与情感分析
 
@@ -78,14 +77,41 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
 </div>
 <br>
 
-更多使用说明请参考[情感分析](./sentiment_analysis)。
+详细使用说明请参考[情感分析](./sentiment_analysis)。
+更多：[文章解读](https://mp.weixin.qq.com/s/QAHjIRG9zxpYfM6YPRQ-9w)
+
+#### 📚 通用文本分类
+
+- 基于“任务架构统一、通用能力共享”的通用文本分类技术 UTC，实了良好的零/少样本迁移能力，实现大一统诸多任务的开放域分类，可支持情感分析、意图识别、语义匹配、蕴含推理等各种可转换为分类问题的 NLU 任务。
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/11793384/213347595-e9c08bd1-3d32-4519-9a52-31fb69b841e8.png" width="60%" length="60%">
+</div>
+<br>
+
+详细使用说明请参考[通用文本分类](./zero_shot_text_classification)。     
+更多：[文章解读](https://mp.weixin.qq.com/s/VV-nYv4y1r7oipJnURRL5w)。
+
+
+#### 🗂 文本分类
+
+- 场景方案全覆盖––––开源预训练模型-微调、提示学习、基于语义索引等多种分类技术方案，满足不同场景需求，涵盖多分类（multi class）、多标签（multi label）、层次分类（hierarchical）三类任务；
+- 模型高效调优––––强强结合数据增强能力与可信增强技术，解决脏数据、标注数据欠缺、数据不平衡等问题，大幅提升模型效果。
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/63761690/186378697-630d3590-4e67-49a0-8d5f-7cabd9daa894.png" width="60%" length="60%">
+</div>
+<br>
+
+详细使用说明请参考[文本分类](./text_classification)。
+更多：[文章解读](https://mp.weixin.qq.com/s/tas7yM8vapxwtlJt-MRZdg)。
 
 #### 🎙️ 智能语音指令解析
 
-集成了[PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech)和[百度开放平台](https://ai.baidu.com/)的的语音识别和[UIE](./model_zoo/uie)通用信息抽取等技术，打造智能一体化的语音指令解析系统范例，该方案可应用于智能语音填单、智能语音交互、智能语音检索等场景，提高人机交互效率。
+- 集成了[PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech)和[百度开放平台](https://ai.baidu.com/)的的语音识别和[UIE](./model_zoo/uie)通用信息抽取等技术，打造智能一体化的语音指令解析系统范例，该方案可应用于智能语音填单、智能语音交互、智能语音检索等场景，提高人机交互效率。
 
 <div align="center">
     <img src="https://user-images.githubusercontent.com/16698950/168589100-a6c6f346-97bb-47b2-ac26-8d50e71fddc5.png" width="400">
 </div>
 
-更多使用说明请参考[智能语音指令解析](./applications/speech_cmd_analysis)。
+详细使用说明请参考[智能语音指令解析](./applications/speech_cmd_analysis)。
