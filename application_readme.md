@@ -23,6 +23,8 @@ PaddleNLP 从预训练模型库出发，提供了经典预训练模型在主流 
     <img src="https://user-images.githubusercontent.com/11793384/212836991-d9132e46-b5bf-4389-80e1-4f9dee32f1fe.png" width="90%" length="90%">
 </div>
 
+<br>
+
 **PaddleNLP 提供了多个版本的产业范例:**
 
 - 如果你希望快速体验、直接应用、从零搭建一套完整系统，推荐使用 **Pipelines 版本**。这里集成了训练好的模型，无需关心模型训练细节；提供 Docker 环境，可快速一键部署端到端系统；打通前端 Demo 界面，便于直观展示、分析、调试效果。
