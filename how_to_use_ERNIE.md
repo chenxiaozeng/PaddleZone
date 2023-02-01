@@ -24,17 +24,19 @@
             <td style="text-align:center">
                 <span style="font-size:18px;">参数量</span>
             </td>
-        <tr>
+         <tr>
             <td style="text-align:center;vertical-align:middle">
                 <span style="font-size:18px;"> 
                   <a href="https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-3.0">
-                        ERNIE 3.0
+                        ERNIE
                   </a> </span>
             </td>
             <td style="text-align:center">
-                <span style="font-size:18px;">各类 NLP 任务通用的预训练模型，在文心大模型 ERNIE 3.0 基础上通过在线蒸馏技术得到的一系列轻量级模型。</span>
+                <span style="font-size:18px;">各类 NLP 任务通用的预训练模型，例如ERNIE 3.0：在文心大模型 ERNIE 3.0 基础上通过在线蒸馏技术得到的一系列轻量级模型。</span>
             </td>
             <td style="text-align:center"><details><summary>size</summary><div>
+                ERNIE 1.0-Large-cw: 340 M</br>
+                ERNIE 2.0-Large-zh: 340 M</br>
                 ERNIE 3.0-Base: 117.9 M</br>
                 ERNIE 3.0-Medium: 75.4 M</br>
                 ERNIE 3.0-Mini: 26.9 M	<br />
@@ -60,6 +62,8 @@
             <td style="text-align:center">
                 <span style="font-size:18px;">各类 NLP 任务通用，基于多语言跨模态布局增强的文档智能大模型，融合文本、图像、布局等信息进行跨模态联合建模，能够深度理解多模态文档，为各类上层应用提供SOTA模型底座。</span>
             </td>
+            <td style="text-align:center"><details><summary>size</summary><div>
+                ERNIE-LayoutX-Base: 340 M <br /> </div></details></td>
         <tr>
             <td style="text-align:center;vertical-align:middle">
                 <span style="font-size:18px;"> 
@@ -70,6 +74,9 @@
             <td style="text-align:center">
                 <span style="font-size:18px;">各类 NLP 任务通用的多语言预训练模型，能同时理解96种语言，在自然语言推断、语义检索、语义相似度、命名实体识别、阅读理解等5类典型跨语言理解任务上刷新世界最好效果。</span>
             </td>
+            <td style="text-align:center"><details><summary>size</summary><div>
+                ernie-m-base: 279 M</br>
+                ernie-m-large: 560 M <br /> </div></details></td>
         <tr>
             <td style="text-align:center;vertical-align:middle">
                 <span style="font-size:18px;"> 
@@ -140,6 +147,8 @@
             <td style="text-align:center">
                 <span style="font-size:18px;">面向对话任务，业界首个开源的百亿超大规模开放域对话预训练模型，模型参数量达11B量级，经过十亿级样本对话数据的预训练，并引入role embedding区分多方对话中的对话角色，效果领先。</span>
             </td>
+            <td style="text-align:center"><details><summary>size</summary><div>
+                PLATO-XL: 11 B <br /> </div></details></td>
     <tbody>
 </table>
 <br />
